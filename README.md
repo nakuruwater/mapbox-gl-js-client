@@ -1,14 +1,14 @@
 # mapbox-gl-js-client
-![](https://github.com/narwassco/mapbox-gl-js-client/workflows/Node.js%20CI/badge.svg)
-![GitHub](https://img.shields.io/github/license/narwassco/mapbox-gl-js-client)
+![](https://github.com/nakuruwater/mapbox-gl-js-client/workflows/Node.js%20CI/badge.svg)
+![GitHub](https://img.shields.io/github/license/nakuruwater/mapbox-gl-js-client)
 [![Gitter](https://badges.gitter.im/narwassco/community.svg)](https://gitter.im/narwassco/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
-This client shows Mapbox Vetor Tile of water supply map for Narok Water.
+This client shows Mapbox Vetor Tile of water supply map for Nakuru Water.
 
 ## Installation
 
 ```
-git clone https://github.com/narwassco/mapbox-gl-js-client.git
+git clone https://github.com/nakuruwater/mapbox-gl-js-client.git
 cd mapbox-gl-js-client
 npm i
 ```
@@ -86,10 +86,10 @@ When you use printed map, please includes attribution as follows.
 
 If you can include HTML, use this code snippet that includes links to Mapbox & OpenStreetMap:
 ```html
-© NARWASSCO, Ltd. © <a href='https://www.mapbox.com/about/maps/'>Mapbox</a> © <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a> <strong><a href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a></strong>Powered by the United Nations Vector Tile Toolkit
+© NAWASSCO, Ltd. © <a href='https://www.mapbox.com/about/maps/'>Mapbox</a> © <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a> <strong><a href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a></strong>Powered by the United Nations Vector Tile Toolkit
 ```
 
 For print output or if you can’t include links, use this text-only attribution:
 ```
-© NARWASSCO, Ltd. ©Mapbox ©OpenStreetMap contributors, Powered by the United Nations Vector Tile Toolkit
+© NAWASSCO, Ltd. ©Mapbox ©OpenStreetMap contributors, Powered by the United Nations Vector Tile Toolkit
 ```
