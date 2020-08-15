@@ -11,8 +11,6 @@ import MapboxPopupControl from '@watergis/mapbox-gl-popup';
 import '@watergis/mapbox-gl-popup/css/styles.css';
 import MapboxPitchToggleControl from '@watergis/mapbox-gl-pitch-toggle-control';
 import '@watergis/mapbox-gl-pitch-toggle-control/css/styles.css';
-// import MapboxAreaSwitcherControl from '@watergis/mapbox-gl-area-switcher';
-// import '@watergis/mapbox-gl-area-switcher/css/styles.css';
 import MapboxLegendControl from "@watergis/mapbox-gl-legend";
 import '@watergis/mapbox-gl-legend/css/styles.css';
 import MapboxPrintControl from "@watergis/mapbox-gl-print";
@@ -37,7 +35,6 @@ $(function(){
     this.map.addControl(new MapboxPitchToggleControl({minpitchzoom: 19})); 
     MapboxStyleSwitcherControl.DEFAULT_STYLE = config.styles[0].title;
     this.map.addControl(new MapboxStyleSwitcherControl(config.styles), 'top-right');
-    // this.map.addControl(new MapboxAreaSwitcherControl(config.areaSwitcher.areas), 'top-right');
     this.map.addControl(new RulerControl(), 'top-right');
     this.map.addControl(new MapboxPrintControl(), 'top-right');
     this.map.addControl(new mapboxgl.ScaleControl({maxWidth: 80, unit: 'metric'}), 'bottom-left');
