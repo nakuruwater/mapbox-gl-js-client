@@ -33,7 +33,7 @@
     "@mapbox/mapbox-gl-geocoder": "^4.7.0",
     "@watergis/mapbox-gl-legend": "^1.0.2",
     "@watergis/mapbox-gl-pitch-toggle-control": "^1.0.3",
-    "@watergis/mapbox-gl-popup": "^1.0.2",
+    "@watergis/mapbox-gl-popup": "^1.0.3",
     "@watergis/mapbox-gl-print": "^1.0.1",
     "dotenv": "^8.2.0",
     "es6-promise": "^4.2.8",
