@@ -1,11 +1,13 @@
-const version = 0.1;
+const version = 0.2;
 
 module.exports = {
     accessToken : process.env.ACCESSTOKEN,
     attribution : '©NAWASSCO,Ltd.',
     styles : [
-        { title: 'Street', uri: `https://nakuruwater.github.io/mapbox-stylefiles/street/style.json?version=${version}`,}, 
-        { title: 'Satellite', uri: `https://nakuruwater.github.io/mapbox-stylefiles/satellite/style.json?version=${version}`,},
+        { title: 'Street(water)', uri: `https://nakuruwater.github.io/mapbox-stylefiles/street/style.json?version=${version}`,}, 
+        { title: 'Satellite(water)', uri: `https://nakuruwater.github.io/mapbox-stylefiles/satellite/style.json?version=${version}`,},
+        { title: 'Street(sewer)', uri: `https://nakuruwater.github.io/mapbox-stylefiles/street/style_sewer.json?version=${version}`,}, 
+        { title: 'Satellite(sewer)', uri: `https://nakuruwater.github.io/mapbox-stylefiles/satellite/style_sewer.json?version=${version}`,},
         { title: 'UN Vector Tile', uri: `https://nakuruwater.github.io/mapbox-stylefiles/unvt/style.json?version=${version}`,},
     ],
     center: [36.1257,-0.2777],
@@ -22,8 +24,10 @@ module.exports = {
         target: [
             // "zones",
             // "plots",
-            // "waterworks",
+            "waterworks",
+            "sewer_twrks",
             "pipeline",
+            "sewer_line",
             // "plots-annotation",
             "reservoirs",
             "boreholes",
