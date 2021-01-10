@@ -45,9 +45,17 @@ module.exports = {
     legend:{
         targets:{
             "zones": 'Zone',
+            'zone-annotation': 'Zone Label',
             "plots": 'Plot',
+            'plots-annotation': 'Plot Label',
             "waterworks": 'Waterworks',
+            'waterworks-annotation': 'Waterworks Label',
+            'sewer_twrks': 'Sewerworks',
+            'sewer_twrks-annotation': 'Sewerworks Label',
             "pipeline": 'Pipeline',
+            'pipeline_annotation': 'Pipeline Label',
+            'sewer_line': 'Sewerline',
+            'sewer_line_annotation': 'Sewerline Label',
             "reservoirs": 'Reservoirs',
             "boreholes": 'Boreholes',
             "pump-stations": 'Pumping Stations',
@@ -56,6 +64,12 @@ module.exports = {
             "public-toilet": 'Public toilet',
             "toilets": 'Toilets',
             "accounts": 'Accounts'
+        },
+        options: {
+            showDefault:false,
+            showCheckbox:true,
+            reverseOrder:true,
+            onlyRendered:true
         }
     }
 }
